@@ -1,0 +1,686 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.header {
+  margin: 0px auto;
+  width: 100%;
+  height: 700px;
+  background-image: url("https://www.wallpapertip.com/wmimgs/50-504446_download-hd-still-life-food-pc-wallpaper-id.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+.header h1 {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 0px 0px 0px;
+  letter-spacing: 2px;
+  font-size: 72px;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .header h1 {
+    font-size: 48px;
+  }
+}
+
+.header nav {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffb400;
+  border: none;
+}
+
+@media (max-width: 900px) {
+  .header nav {
+    background-color: rgba(255, 180, 0, 0.3);
+  }
+}
+
+.header nav div {
+  margin: 0px auto;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 900px) {
+  .header nav div {
+    width: 100%;
+    display: block;
+  }
+}
+
+.header nav div a {
+  padding: 0px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  display: block;
+}
+
+.header nav div a:hover {
+  background-color: #695100;
+  text-decoration: underline;
+}
+
+.header div {
+  margin: 100px 40px 40px auto;
+  padding: 0px;
+  width: 40%;
+  display: block;
+  background-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .header div {
+    display: none;
+  }
+}
+
+.header div div {
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  background-color: #ededed;
+  border-radius: 5px;
+}
+
+.header div div h4 {
+  text-align: left;
+  font-size: 22px;
+  color: #222;
+}
+
+.header div div p {
+  margin: 0px auto;
+  padding: 20px 20px 0;
+  font-size: 16px;
+  width: 100%;
+  color: #777;
+  text-align: justify;
+}
+
+.header div div p:first-of-type {
+  text-indent: 25px;
+}
+
+.header_error {
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background-color: #111;
+}
+
+@media (max-width: 900px) {
+  .header_error {
+    padding: 0px;
+  }
+}
+
+.header_error h1 {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 2px;
+  font-size: 48px;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .header_error h1 {
+    font-size: 24px;
+  }
+}
+
+.header_error .link {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .header_error .link {
+    font-size: 16px;
+  }
+}
+
+.section-1 {
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+}
+
+@media (max-width: 1023px) {
+  .section-1 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.section-1 aside {
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: 30%;
+  height: auto;
+}
+
+@media (max-width: 1023px) {
+  .section-1 aside {
+    display: none;
+  }
+}
+
+.section-1 aside div {
+  margin: 0px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #222;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+.section-1 aside div h4 {
+  text-align: center;
+  line-height: 2;
+  display: block;
+  font-size: 22px;
+  color: #ddd;
+}
+
+.section-1 aside div div {
+  padding: 5px 0px;
+}
+
+.section-1 aside div div a {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  display: block;
+  color: #ffb400;
+}
+
+.section-1 aside div div a:hover {
+  color: #fff;
+  background-color: #695100;
+  text-decoration: underline;
+}
+
+.section-1 article {
+  margin: 0px auto;
+  width: 70%;
+}
+
+@media (max-width: 1023px) {
+  .section-1 article {
+    width: 100%;
+  }
+}
+
+.section-1 article div {
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+}
+
+@media (max-width: 1023px) {
+  .section-1 article div {
+    display: block;
+  }
+}
+
+.section-1 article div h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #222;
+}
+
+@media (max-width: 1023px) {
+  .section-1 article div h4 {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+.section-1 article div p {
+  margin: 0px auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #ededed;
+  color: #777;
+  font-size: 16px;
+  text-align: justify;
+  border-radius: 5px 25px 5px 25px;
+}
+
+.section-2 {
+  margin: 0px auto;
+  padding: 40px 0px;
+  width: 100%;
+  display: block;
+  background-color: #ededed;
+}
+
+.section-2 div {
+  width: 75%;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.section-2 div:first-of-type {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 150px;
+  -ms-grid-columns: (minmax(25%, 3fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(25%, 3fr));
+}
+
+@media (max-width: 1023px) {
+  .section-2 div:first-of-type {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .section-2 div {
+    display: block;
+    width: 100%;
+  }
+}
+
+.section-2 div img {
+  margin: auto;
+  padding: 0px;
+  width: 95%;
+  max-height: 95%;
+  display: block;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-2 div img:hover {
+  -webkit-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+@media (max-width: 1023px) {
+  .section-2 div img {
+    display: block;
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+.section-2 div a {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 20px 0 0;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-decoration: underline;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .section-2 div a {
+    font-size: 20px;
+  }
+}
+
+.section-3 {
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+}
+
+@media (max-width: 1023px) {
+  .section-3 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.section-3 aside {
+  margin: 0px auto;
+  padding: 20px 0px;
+  width: 30%;
+  height: auto;
+}
+
+@media (max-width: 1023px) {
+  .section-3 aside {
+    display: none;
+  }
+}
+
+.section-3 aside div {
+  margin: 0px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #222;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+.section-3 aside div h4 {
+  text-align: center;
+  line-height: 2;
+  display: block;
+  font-size: 22px;
+  color: #ddd;
+}
+
+.section-3 aside div div {
+  padding: 5px 0px;
+}
+
+.section-3 aside div div a {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  display: block;
+  color: #ffb400;
+}
+
+.section-3 aside div div a:hover {
+  color: #fff;
+  background-color: #695100;
+  text-decoration: underline;
+}
+
+.section-3 article {
+  margin: 0px auto;
+  width: 70%;
+}
+
+@media (max-width: 1023px) {
+  .section-3 article {
+    width: 100%;
+  }
+}
+
+.section-3 article div {
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+}
+
+@media (max-width: 1023px) {
+  .section-3 article div {
+    display: block;
+  }
+}
+
+.section-3 article div h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #222;
+}
+
+@media (max-width: 1023px) {
+  .section-3 article div h4 {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+.section-3 article div p {
+  margin: 0px auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #ededed;
+  color: #777;
+  font-size: 16px;
+  text-align: justify;
+  border-radius: 5px 25px 5px 25px;
+}
+
+.section-4 {
+  margin: 0px auto;
+  padding: 40px 0px;
+  width: 100%;
+  display: block;
+  background-color: #ededed;
+}
+
+.section-4 div {
+  width: 75%;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.section-4 div:first-of-type {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 150px;
+  -ms-grid-columns: (minmax(25%, 3fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(25%, 3fr));
+}
+
+@media (max-width: 1023px) {
+  .section-4 div:first-of-type {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .section-4 div {
+    display: block;
+    width: 100%;
+  }
+}
+
+.section-4 div img {
+  margin: auto;
+  padding: 0px;
+  width: 95%;
+  max-height: 95%;
+  display: block;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-4 div img:hover {
+  -webkit-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+@media (max-width: 1023px) {
+  .section-4 div img {
+    display: block;
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+.section-4 div a {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 20px 0 0;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-decoration: underline;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .section-4 div a {
+    font-size: 20px;
+  }
+}
+
+.footer {
+  margin: 0px auto;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  background-color: #fff;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: block;
+  }
+}
+
+.footer-left {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.footer-left img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+}
+
+.footer-right {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.footer-right h4 {
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 0px 0px 0px;
+  letter-spacing: 2px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+
+.footer-right p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.footer-right p a {
+  padding: 2px 0;
+  line-height: 2;
+  font-size: 18px;
+  color: #304be4;
+  border-bottom: 1px solid #304be4;
+}
+
+.footer-right img {
+  margin: 10px auto;
+  width: 20%;
+  display: block;
+}
+
+.footer-right h2 a {
+  margin: auto;
+  background-color: transparent;
+  color: #ffb400;
+  text-align: center;
+  padding: 0px 0px 0px;
+  letter-spacing: 2px;
+  font-size: 72px;
+  line-height: 1;
+  font-family: 'Akaya Telivigala', cursive;
+  display: block;
+}
+/*# sourceMappingURL=section.css.map */
